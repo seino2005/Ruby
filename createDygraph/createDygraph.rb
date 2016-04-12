@@ -19,7 +19,7 @@ $g_split = false
 
 # compare multiple csv file and pick up the same column.
 # same columns of csv files to same graphs.
-$g_compare = true
+$g_compare = false
 
 ###########################################################################
 # String extension
