@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://dygraphs.com/dygraph-combined.js"></script>
+</head>
+<body>
+
+  <h1>20160503154246_DataA.csv</h1>
+  <div id="graphdiv_1"></div>
+  <script type="text/javascript">
+  var container = document.getElementById("graphdiv_1");
+  g = new Dygraph(container,  "20160503154246_DataA.csv",
+                  {
+                     rollPeriod: 14,
+                     showRoller: true,
+                     ylabel: 'Exectime (S)',
+                     xlabel: 'Number of executions',
+                     width: 640,
+                     height: 480,
+                     digitsAfterDecimal: 4
+                  });
+  </script>
+  
+  <h1>20160503154246_DataB.csv</h1>
+  <div id="graphdiv_2"></div>
+  <script type="text/javascript">
+  var container = document.getElementById("graphdiv_2");
+  g = new Dygraph(container,  "20160503154246_DataB.csv",
+                  {
+                     rollPeriod: 14,
+                     showRoller: true,
+                     ylabel: 'Exectime (S)',
+                     xlabel: 'Number of executions',
+                     width: 640,
+                     height: 480,
+                     digitsAfterDecimal: 4
+                  });
+  </script>
+  
+  <h1>20160503154246_DataC.csv</h1>
+  <div id="graphdiv_3"></div>
+  <script type="text/javascript">
+  var container = document.getElementById("graphdiv_3");
+  g = new Dygraph(container,  "20160503154246_DataC.csv",
+                  {
+                     rollPeriod: 14,
+                     showRoller: true,
+                     ylabel: 'Exectime (S)',
+                     xlabel: 'Number of executions',
+                     width: 640,
+                     height: 480,
+                     digitsAfterDecimal: 4
+                  });
+  </script>
+  
+</body>
+</html>
