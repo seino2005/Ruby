@@ -197,7 +197,7 @@ class CreateHtml
     <!DOCTYPE html>
     <html>
     <head>
-    <script type="text/javascript" src="dygraph-combined.js"></script>
+    <script type="text/javascript" src="http://dygraphs.com/dygraph-combined.js"></script>
     </head>
     <body>
     #{csvGraphs}
