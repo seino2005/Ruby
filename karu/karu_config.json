@@ -1,0 +1,7 @@
+{
+	"branch":"N1000Dv",
+	"config":"Release",
+	"changelist":"latest",
+	"repo": ["path1", "path2"]
+}
+
