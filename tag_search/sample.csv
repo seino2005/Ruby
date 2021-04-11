@@ -1,0 +1,5 @@
+TESTC, test, non_tester
+DPIN, pin, dpin,
+SOCKET, pin
+MEASURE_FT, measure, function, dpin
+VECTORFILE, pattern, function
